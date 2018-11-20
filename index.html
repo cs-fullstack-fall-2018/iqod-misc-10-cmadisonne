@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    const string = "civic";
+    var newString = string.split('');
+    console.log(newString);
+
+    for (var i=0; i<newString.length; i++){
+        var compare1 = [];
+        compare1.push(newString[i]);
+    }
+    console.log(compare1);
+    //-------------------------------------------------
+    for (var j=4; j>newString.length; j--){
+        var compare2 = [];
+        compare2.push(newString[j]);
+    }
+    console.log(compare2);
+    //--------------------------------------------------
+    if (compare1 === compare2){
+        console.log(string + " is a palindrome")
+    }
+    else {
+        console.log(string + " is not a palindrome")
+    }
+
+</script>
+
+</body>
+</html>
